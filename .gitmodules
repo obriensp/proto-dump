@@ -1,0 +1,3 @@
+[submodule "Externals/CLU"]
+	path = Externals/CLU
+	url = git@github.com:obriensp/Command-Line-Utilities.git
