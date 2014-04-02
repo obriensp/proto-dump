@@ -71,7 +71,7 @@ using namespace google::protobuf::internal;
 {
 	uint64_t length = 0;
 	if (![self readVarint:&length]) {
-		return NO;
+		return nil;
 	}
 
 	return [self readDataWithLength:length];
